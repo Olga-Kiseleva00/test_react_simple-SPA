@@ -1,4 +1,6 @@
-# test_react_simple-SPA
+# test_react_simple-SPA 
+
+# ЗАДАНИЕ
 
 Реализовать одностраничное приложение (SPA) для просмотра информации сервиса с возможностью авторизации.
 
@@ -42,112 +44,19 @@
 1. В левой части ввывести древовидную структуру, содержащую только родительские элементы с возможностью выбора.
 2. В правой части вывести список дочерних элементов выбранного родителя. Реализовать поиск и сортировку по имени.
 
-```js
-const data = [
-  {
-    key: '_',
-    name: 'root',
-    children: [
-      {
-        key: '0',
-        name: 'quidem molestiae enim',
-        children: [
-          {
-            key: '0-1',
-            name: 'sunt qui excepturi placeat culpa',
-            children: [
-              {
-                key: '0-1-0',
-                name: 'omnis laborum odio',
-              },
-              {
-                key: '0-1-1',
-                name: 'non esse culpa molestiae omnis sed optio',
-              },
-              {
-                key: '0-1-2',
-                name: 'molestiae voluptate non',
-              },
-              {
-                key: '0-1-3',
-                name: 'eaque aut omnis a',
-              },
-              {
-                key: '0-1-4',
-                name: 'tenetur explicabo ea',
-              },
-              {
-                key: '0-1-5',
-                name: 'temporibus molestiae aut',
-              }
-            ],
-          },
-          {
-            key: '0-2',
-            name: 'natus impedit quibusdam illo est',
-            children: [],
-          },
-        ],
-      },
-      {
-        key: '1',
-        name: 'quibusdam autem aliquid et et quia',
-        children: [],
-      },
-      {
-        key: '2',
-        name: 'qui fuga est a eum',
-        children: [
-          {
-            key: '2-0',
-            name: 'saepe unde necessitatibus rem',
-            children: [
-              {
-                key: '2-0-0',
-                name: 'est placeat dicta ut nisi rerum iste',
-                children: [
-                  {
-                    key: '2-0-0-0',
-                    name: 'ea voluptates maiores eos accusantium officiis tempore mollitia consequatur',
-                  },
-                  {
-                    key: '2-0-0-1',
-                    name: 'tenetur explicabo ea',
-                  }
-                ],
-              },
-            ],
-          },
-          {
-            key: '2-1',
-            name: 'distinctio laborum qui',
-          },
-          {
-            key: '2-2',
-            name: 'quam nostrum impedit mollitia quod et dolor',
-          },
-          {
-            key: '2-3',
-            name: 'consequatur autem doloribus natus consectetur',
-          },
-        ],
-      },
-      {
-        key: '3',
-        name: 'ab rerum non rerum consequatur ut ea unde',
-        children: [],
-      },
-      {
-        key: '4',
-        name: 'ducimus molestias eos animi atque nihil',
-        children: [],
-      },
-      {
-        key: '5',
-        name: 'ut pariatur rerum ipsum natus repellendus praesentium',
-        children: [],
-      }
-    ],
-  },
-];
-```
+---
+
+# РЕШЕНИЕ
+
+- Для написания кода использован TypeScript
+
+- Механизм авторизации реализован на Node.js и Express, база данных - в PostgreSQL
+
+- В качестве state менеджера выбран Redux Toolkit
+
+- Визуализация пользовательского интерфейса разработана с использованием MUI
+
+- Для запуска серверной части проекта необходимо создать файл .env на базе файла envExample и указать в нем данные для подключения
+
+
+
